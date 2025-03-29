@@ -37,7 +37,8 @@ This will install all the necessary packages defined in `package.json`.
 You will need to set up environment variables for the project. Create a `.env.local` file in the root of the project and add the following variables:
 
 ```bash
-NEXT_PUBLIC_OPENAI_API_KEY=your-openai-api-key NEXTAUTH_SECRET=your-nextauth-secret
+NEXT_PUBLIC_OPENAI_API_KEY=your-openai-api-key
+NEXTAUTH_SECRET=your-nextauth-secret
 ```
 
 - Replace `your-openai-api-key` with your actual OpenAI API key.
